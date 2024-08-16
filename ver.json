@@ -1,0 +1,40 @@
+{
+"versionName": "1.2.0",
+"versionCode": 0,
+"versionFormat": "%versionName%",
+"category": "gold",
+                "displayName": "整合包名字",
+"titleFormat": ["GOLD", "BOLD"],
+"sponsorFormat": ["GOLD"],
+"sponsors": [{
+"name": "abjya",
+}],
+"changelogs": {
+"1.1.0": [
+"这里可以填更新日志",
+"更新日志",
+"还是更新日志"
+],
+"1.0.0": [
+"按这个格式想填多少版本填多少版本"
+]
+},
+"welcomeMessage": ["", {
+"text": "欢迎游玩这个并不存在的整合包",
+"color": "gold"
+}, {
+"text": "测试",
+"color": "yellow"
+}, {
+"text": "\n表示换行符"
+}, {
+"text": "更新整合包请加群xxxxx，点击链接也可以查看版本json",
+"bold": true,
+"underlined": true,
+"color": "blue",
+"clickEvent": {
+"action": "open_url",
+"value": "https://abjya.github.io/ver.json"
+}
+}]
+}
